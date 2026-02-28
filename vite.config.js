@@ -8,4 +8,5 @@ export default defineConfig({
       plugins: [['babel-plugin-react-compiler', { target: '19' }]],
     },
   })],
+  base: process.env.VITE_BASE_PATH || "/draciTiers"
 })
