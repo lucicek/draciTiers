@@ -1,0 +1,24 @@
+.header-link{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #99A1AF;
+  text-decoration: none;   /* důležité */
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.header-link:hover{
+  background-color: #1A2432;
+  color: white;
+}
+
+.header-link img{
+  height: 24px;
+}
+
+.header-link span{
+  font-size: 19px;
+}

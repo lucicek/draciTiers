@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1312.8px;
+  width: 100%;
+  margin: 0 auto; 
+  background-color: #121822;
+  padding: 0 16px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid #18202A 2px;
+  align-items: center;
+}
+
+.logo{
+  width: 160px;
+  height: 30px;
+}
+
+.header-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+

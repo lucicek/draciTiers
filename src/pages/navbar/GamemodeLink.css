@@ -1,0 +1,42 @@
+.gamemode-link{
+  display: flex;
+  padding:  4px 32px 0 32px ;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #18202A;
+  width: 48px;
+  height: 57px;
+  justify-content: center;
+  row-gap: 3px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  transition: background-color 0.15s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gamemode-link:hover{
+  background-color: #171F2A;
+}
+
+.gamemode-icon{
+  width: 30px;
+}
+
+.gamemode-link span{
+  color: #474D57;
+  transition: color 0.15s;
+}
+
+.gamemode-link:hover span{
+  color: white;
+}
+
+.active{
+  background-color: #171F2A;
+  border-bottom: #FFFFFF 2px solid;
+}
+
+.active span{
+  color: white;
+}

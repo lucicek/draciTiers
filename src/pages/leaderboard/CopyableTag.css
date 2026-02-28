@@ -1,0 +1,43 @@
+.copyable-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+
+  background-color: #1E2939;
+  color: #e5e7eb;
+
+  padding: 0.4em 0.8em;
+  border-radius: 0.5em;
+
+  font-size: 12px;
+  line-height: 1;
+  font-weight: bold;
+
+  transition: background-color 0.2s ease;
+}
+
+.copyable-tag__text {
+  user-select: none;
+}
+
+.copyable-tag__button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.copyable-tag__button svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+}
